@@ -1,6 +1,4 @@
-# 使用的 actions:
-# https://github.com/marketplace/actions/automatic-releases
-name: Main
+name: download
 
 on:
   #push:
