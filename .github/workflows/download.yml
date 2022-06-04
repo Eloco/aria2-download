@@ -17,7 +17,7 @@ env:
   INPUT_URL: ${{ github.event.inputs.url }}
 
 jobs:
-  build:
+  download:
     runs-on: ubuntu-latest
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
